@@ -1,5 +1,6 @@
-/// A Product with a name, a description and a price.
-class Product {
+import 'package:flutter/foundation.dart';
+
+class Product extends ChangeNotifier {
   final String name;
   final String description;
   final double price;
